@@ -9,7 +9,7 @@ The file contains a header indicating what each column corresponds to.\
 4th column is trial congruence. 1 if cue and target were on the same side, 0 if not. In cue-absent or target-absent trials, congruence cannot be assessed and a NaN value is recorded. \
 5th column is SOA in ms. As for congruence, NaN values were recorded when less than two stimuli were presented.\
 6th column indicates target location on-screen. 1 if Left, 2 if Right, NaN if target-absent.\
-7th column indicates cue location. 1 if Left, 2 if Right, NaN if cue-absent.\
+7th column indicates cue location. 1 if Left, 2 if Right, NaN if cue-absent.
 
 ## Matlab .m script
 This script was used to produce Figure 1 and classical statistical analyses performed outside modeling. The Statistics toolbox may be necessary to run this script. In theory, all that is needed to run it is to provide the appropriate path to the RP4 dataset.
