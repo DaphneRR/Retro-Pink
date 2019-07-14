@@ -16,7 +16,7 @@ This script was used to produce Figure 1 and classical statistical analyses perf
 Note that a small bug may occur when trying to create the figures. In this case, execute the section line by line.
 
 ## R .R script
-This script is an adaptation of the script from Anders et al. 2016 as indicated in the body of the article. In theory, you should only need to provide the appropriate data path to the RP4 dataset to use this script. On a recent machine, the whole process takes under 30 minutes to run.
+This script is an adaptation of the script from Anders et al. 2016 as indicated in the body of the article. It was used to produce Figure 2 and Supplementary Figure 1. In theory, you should only need to provide the appropriate data path to the RP4 dataset to use this script. On a recent machine, the whole process takes under 30 minutes to run.
 
 ## Contact
 Please contact Daphné Rimsky-Robert if you have questions, suggestions or feedback at drr@tuta.io.
