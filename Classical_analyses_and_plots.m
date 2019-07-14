@@ -1,11 +1,11 @@
 %% Analysis -- retropink data ---------------------------------------------
-% Written by Daphné Rimsky-Robert -> drr@tuta.io
+% Written by DaphnÃ© Rimsky-Robert -> drr@tuta.io
 
 clear
 close all
 clc
 
-datapath = 'C:\Users\DRR\Dropbox\retroperception\RetroPink\Analyses\Go_noGo\';
+datapath = 'add repository path here';
 cd(datapath)
 count = 1;
 
