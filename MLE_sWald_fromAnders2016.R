@@ -269,7 +269,7 @@ stderr <- function(x) sqrt(var(x,na.rm=TRUE)/length(na.omit(x)))
 ## End of Section 2 
 ###########################################################
 
-setwd("D:/Rscripts/sWald_analysis")
+setwd("add repository path here")
 
 d <- read.csv(file="RP4.csv") 
 # d$loc <- NULL
