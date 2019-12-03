@@ -15,8 +15,10 @@ The file contains a header indicating what each column corresponds to.\
 This script was used to produce Figure 1 and classical statistical analyses performed outside modeling. The Statistics toolbox may be necessary to run this script. In theory, all that is needed to run it is to provide the appropriate path to the RP4 dataset.
 Note that a small bug may occur when trying to create the figures. In this case, execute the section line by line.
 
-## R .R script
-This script is an adaptation of the script from Anders et al. 2016 as indicated in the body of the article. It was used to produce Figure 2 and Supplementary Figure 1. In theory, you should only need to provide the appropriate data path to the RP4 dataset to use this script. On a recent machine, the whole process takes under 30 minutes to run.
+## R .R scripts
+The script MLE_sWald_from_Anders2016.R is an adaptation of the script from Anders et al. 2016 as indicated in the body of the article. It was used to produce Figure 2 and Supplementary Figure 1. In theory, you should only need to provide the appropriate data path to the RP4 dataset to use this script. On a recent machine, the whole process takes under 30 minutes to run.
+
+The script statistical_analyses_GLMM_ANOVA.R makes use of the RP4.csv preprocessed data and dprime_data.csv data computed as described in the Methods. The script contains the GLMM analysis of RTs, IES, Tukey's all pair HSD tests, and the classical rm-ANOVA for d prime.
 
 ## Contact
 Please contact Daphné Rimsky-Robert if you have questions, suggestions or feedback at drr@tuta.io.
